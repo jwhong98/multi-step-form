@@ -1,0 +1,7 @@
+.nav {
+  min-width: 470px;
+  height: calc(100vh - 40px);
+  background: red;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=FormNav.module.css.map */
