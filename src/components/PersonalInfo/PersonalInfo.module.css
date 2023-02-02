@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=PersonalInfo.module.css.map */
+.personalInfo {
+  max-width: 550px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.personalInfo__header {
+  width: 100%;
+}
+
+.personalInfo__form {
+  width: 100%;
+}
+
+.personalInfo__form__formRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=PersonalInfo.module.css.map */

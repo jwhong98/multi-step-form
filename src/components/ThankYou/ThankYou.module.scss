@@ -3,7 +3,7 @@
 
 .thankYou {
   @include flexCol;
-  max-width: 550px;
+  max-width: $width;
   text-align: center;
   gap: 1.5rem;
 

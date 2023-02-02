@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAGA,AAAA,aAAa,CAAC;EACZ,SAAS,ECAH,KAAK;EDCX,KAAK,EAAE,IAAI;EEJX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EFGvB,GAAG,EAAE,IAAI;CAaV;;AAXE,AAAD,qBAAS,CAAC;EACR,KAAK,EAAE,IAAI;CACZ;;AAEA,AAAD,mBAAO,CAAC;EACN,KAAK,EAAE,IAAI;CAKZ;;AAJE,AAAD,4BAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB",
     "sources": [
-        "PersonalInfo.module.scss"
+        "PersonalInfo.module.scss",
+        "../../styles/_variables.scss",
+        "../../styles/_mixins.scss"
     ],
     "names": [],
     "file": "PersonalInfo.module.css"
