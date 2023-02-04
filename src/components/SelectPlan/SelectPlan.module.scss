@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.selectPlan {
+  max-width: $width;
+  width: 100%;
+  @include flexCol;
+  gap: 20px;
+
+  &__header {
+    width: 100%;
+  }
+  &__plans {
+  }
+  &__switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
