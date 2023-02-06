@@ -12,10 +12,32 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 20px;
+  margin-top: 50px;
 }
 
 .selectPlan__header {
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.selectPlan__header p {
+  margin-top: 15px;
+  color: #9699ab;
+  font-size: 1.3rem;
+  font-family: "ubuntu-med", sans-serif;
+}
+
+.selectPlan__plans {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .selectPlan__switch {

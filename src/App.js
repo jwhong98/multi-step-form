@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <FormNav />
       <div className="container">
-        <PersonalInfo />
-        {/* <SelectPlan /> */}
+        {/* <PersonalInfo /> */}
+        <SelectPlan />
         {/* <ThankYou /> */}
       </div>
     </div>
