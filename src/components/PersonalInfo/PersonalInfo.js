@@ -5,8 +5,8 @@ const PersonalInfo = () => {
   return (
     <section className={classes.personalInfo}>
       <div className={classes.personalInfo__header}>
-        <h1>Personal Info</h1>
-        <p>Please provide your name, email address, and phone number</p>
+        <h1>Personal info</h1>
+        <p>Please provide your name, email address, and phone number.</p>
       </div>
       <form action="/" className={classes.personalInfo__form}>
         <div className={classes.personalInfo__form__formRow}>

@@ -9,18 +9,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 550px;
+  max-width: 600px;
   text-align: center;
   gap: 1.5rem;
-}
-
-.thankYou h1 {
-  font-family: "ubuntu-bold", sans-serif;
-  font-size: 2.75rem;
-  color: #02295a;
 }
 
 .thankYou p {

@@ -5,17 +5,49 @@
   max-width: $width;
   width: 100%;
   @include flexCol;
+  margin-top: 50px;
   gap: 20px;
 
   &__header {
     width: 100%;
+    margin-bottom: 20px;
+    p {
+      margin-top: 15px;
+      color: hsl(231, 11%, 63%);
+      font-size: 1.3rem;
+      font-family: $fontMed;
+    }
   }
 
   &__form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     &__formRow {
       display: flex;
       flex-direction: column;
+      gap: 10px;
+
+      label {
+        color: $headingColor;
+        font-size: 1.1rem;
+        font-family: $fontMed;
+      }
+
+      input {
+        font-size: 1.3rem;
+        padding: 15px;
+        border-radius: 8px;
+        outline: none;
+        border: 1px solid hsl(229, 24%, 87%);
+        color: $headingColor;
+        font-family: $fontBold;
+
+        ::placeholder {
+          color: hsl(229, 24%, 87%);
+        }
+      }
     }
   }
 }

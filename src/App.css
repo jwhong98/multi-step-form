@@ -37,4 +37,10 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+h1 {
+  color: #02295a;
+  font-family: "ubuntu-bold", sans-serif;
+  font-size: 2.75rem;
+}
 /*# sourceMappingURL=App.css.map */
