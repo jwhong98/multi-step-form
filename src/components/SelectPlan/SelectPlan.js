@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import classes from "./SelectPlan.module.css";
 import { data } from "./data";
 import PlanCard from "../PlanCard/PlanCard";
+import { Switch } from "@mui/material";
 
 const SelectPlan = () => {
   const [monthlyBilling, setMonthlyBilling] = useState(true);
@@ -29,9 +30,19 @@ const SelectPlan = () => {
         <p>You have the option of monthly or yearly billing.</p>
       </div>
       <div className={classes.selectPlan__plans}>{data.map(createCard)}</div>
-      <div className={classes.selectPlan__switch}>
-        <span>Monthly Yearly</span>
-      </div>
+      <p className={classes.selectPlan__switch}>
+        <span
+          className={`${monthlyBilling && classes.active} ${classes.label}`}
+        >
+          Monthly
+        </span>
+        <Switch onClick={switchHandler} />
+        <span
+          className={`${!monthlyBilling && classes.active} ${classes.label}`}
+        >
+          Yearly
+        </span>
+      </p>
     </section>
   );
 };

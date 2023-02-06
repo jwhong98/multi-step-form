@@ -52,5 +52,16 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 20px;
+}
+
+.label {
+  color: #9699ab;
+  font-family: "ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+.active {
+  color: #02295a;
 }
 /*# sourceMappingURL=SelectPlan.module.css.map */

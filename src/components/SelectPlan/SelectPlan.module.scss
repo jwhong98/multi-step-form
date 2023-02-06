@@ -31,5 +31,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
   }
+}
+
+.label {
+  color: hsl(231, 11%, 63%);
+  font-family: $font;
+  font-weight: 700;
+}
+
+.active {
+  color: $headingColor;
 }
