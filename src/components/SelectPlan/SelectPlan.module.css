@@ -38,6 +38,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 25px;
+  min-height: 200px;
 }
 
 .selectPlan__switch {

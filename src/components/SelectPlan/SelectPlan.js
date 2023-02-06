@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from "./SelectPlan.module.css";
 import { data } from "./data";
 import PlanCard from "../PlanCard/PlanCard";
 
 const SelectPlan = () => {
+  const [monthlyBilling, setMonthlyBilling] = useState(true);
+
+  const switchHandler = () => {
+    setMonthlyBilling(!monthlyBilling);
+  };
+
   const createCard = (info) => {
     return (
       <PlanCard
         key={info.id}
         icon={info.icon}
         plan={info.plan}
+        monthly={monthlyBilling}
         mPrice={info.mPrice}
         yPrice={info.yPrice}
       />

@@ -1,1 +1,51 @@
-/* No CSS *//*# sourceMappingURL=PlanCard.module.css.map */
+.planCard {
+  border: 1px solid #9699ab;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
+}
+
+.planCard img {
+  min-width: 50px;
+  height: auto;
+}
+
+.planCard__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.planCard__details h2 {
+  font-size: 1.3rem;
+}
+
+.price {
+  color: #9699ab;
+}
+
+.free {
+  color: #02295a;
+}
+/*# sourceMappingURL=PlanCard.module.css.map */
