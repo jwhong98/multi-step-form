@@ -16,6 +16,7 @@
       -ms-flex: 1;
           flex: 1;
   height: 100%;
+  cursor: pointer;
 }
 
 .planCard img {
@@ -37,6 +38,11 @@
 
 .planCard__details h2 {
   font-size: 1.3rem;
+}
+
+.selected {
+  background: #f0f6ff;
+  border: 1px solid #473dff;
 }
 
 .price {

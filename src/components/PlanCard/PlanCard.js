@@ -2,8 +2,16 @@ import React from "react";
 import classes from "./PlanCard.module.css";
 
 const PlanCard = (props) => {
+  const onClickHandler = () => {
+    props.onClick(props.plan);
+  };
   return (
-    <div className={classes.planCard}>
+    <div
+      className={`${classes.planCard} ${
+        props.selected === props.plan && classes.selected
+      }`}
+      onClick={onClickHandler}
+    >
       <img src={props.icon} alt="plan icon" />
       <div className={classes.planCard__details}>
         <h2>{props.plan}</h2>

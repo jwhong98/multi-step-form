@@ -53,6 +53,10 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 20px;
+  width: 100%;
+  background: #f0f6ff;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .label {

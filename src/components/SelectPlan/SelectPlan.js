@@ -6,20 +6,27 @@ import { Switch } from "@mui/material";
 
 const SelectPlan = () => {
   const [monthlyBilling, setMonthlyBilling] = useState(true);
+  const [selectedPlan, setSelectedPlan] = useState("Arcade");
 
   const switchHandler = () => {
     setMonthlyBilling(!monthlyBilling);
+  };
+
+  const onClickHandler = (plan) => {
+    setSelectedPlan(plan);
   };
 
   const createCard = (info) => {
     return (
       <PlanCard
         key={info.id}
+        selected={selectedPlan}
         icon={info.icon}
         plan={info.plan}
         monthly={monthlyBilling}
         mPrice={info.mPrice}
         yPrice={info.yPrice}
+        onClick={onClickHandler}
       />
     );
   };
@@ -30,7 +37,7 @@ const SelectPlan = () => {
         <p>You have the option of monthly or yearly billing.</p>
       </div>
       <div className={classes.selectPlan__plans}>{data.map(createCard)}</div>
-      <p className={classes.selectPlan__switch}>
+      <div className={classes.selectPlan__switch}>
         <span
           className={`${monthlyBilling && classes.active} ${classes.label}`}
         >
@@ -42,7 +49,7 @@ const SelectPlan = () => {
         >
           Yearly
         </span>
-      </p>
+      </div>
     </section>
   );
 };
