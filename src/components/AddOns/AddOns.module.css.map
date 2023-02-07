@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAGA,AAAA,OAAO,CAAC;EACN,SAAS,EEAH,KAAK;EFCX,KAAK,EAAE,IAAI;ECJX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EDInB,GAAG,EAAE,IAAI;EACT,UAAU,EAAE,IAAI;CAoBjB;;AAlBE,AAAD,eAAS,CAAC;EACR,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,IAAI;CAQpB;;AAVA,AAIC,eAJO,CAIP,CAAC,CAAC;EACA,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,OAAkB;EACzB,SAAS,EAAE,MAAM;EACjB,WAAW,EEjBP,YAAY,EAAE,UAAU;CFkB7B;;AAGF,AAAD,kBAAY,CAAC;EACX,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,GAAG,EAAE,IAAI;CACV",
     "sources": [
-        "AddOns.module.scss"
+        "AddOns.module.scss",
+        "../../styles/_mixins.scss",
+        "../../styles/_variables.scss"
     ],
     "names": [],
     "file": "AddOns.module.css"

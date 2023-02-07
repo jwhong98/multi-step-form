@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.addOnCard {
+  display: flex;
+  align-items: center;
+  border: 1px solid hsl(229, 24%, 87%);
+  padding: 20px;
+  border-radius: 8px;
+  gap: 20px;
+  cursor: pointer;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    &__type {
+      color: $headingColor;
+      font-family: $fontBold;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    &__description {
+      color: hsl(231, 11%, 63%);
+      font-family: $fontMed;
+    }
+  }
+  &__price {
+    margin-left: auto;
+    color: hsl(243, 100%, 62%);
+  }
+}
+
+.selected {
+  background: hsl(217, 100%, 97%);
+  border: 1px solid hsl(243, 100%, 62%);
+}
+
+.addOnCard:hover {
+  border: 1px solid hsl(243, 100%, 62%);
+}

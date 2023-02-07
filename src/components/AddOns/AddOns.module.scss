@@ -1,0 +1,29 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.addOns {
+  max-width: $width;
+  width: 100%;
+  @include flexCol;
+  gap: 20px;
+  margin-top: 50px;
+
+  &__header {
+    width: 100%;
+    margin-bottom: 20px;
+
+    p {
+      margin-top: 15px;
+      color: hsl(231, 11%, 63%);
+      font-size: 1.3rem;
+      font-family: $fontMed;
+    }
+  }
+
+  &__addSelect {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

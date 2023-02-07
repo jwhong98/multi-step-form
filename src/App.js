@@ -1,4 +1,5 @@
 import "./App.css";
+import AddOns from "./components/AddOns/AddOns";
 import FormNav from "./components/FormNav/FormNav";
 import PersonalInfo from "./components/PersonalInfo/PersonalInfo";
 import SelectPlan from "./components/SelectPlan/SelectPlan";
@@ -10,8 +11,9 @@ function App() {
       <FormNav />
       <div className="container">
         {/* <PersonalInfo /> */}
-        <SelectPlan />
+        {/* <SelectPlan /> */}
         {/* <ThankYou /> */}
+        <AddOns />
       </div>
     </div>
   );
