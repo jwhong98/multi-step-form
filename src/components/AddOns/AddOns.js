@@ -18,7 +18,7 @@ const AddOns = () => {
     <section className={classes.addOns}>
       <div className={classes.addOns__header}>
         <h1>Pick add-ons</h1>
-        <p>Add-ons help enhance your gaming experience</p>
+        <p>Add-ons help enhance your gaming experience.</p>
       </div>
       <div className={classes.addOns__addSelect}>{data.map(createAddOns)}</div>
     </section>

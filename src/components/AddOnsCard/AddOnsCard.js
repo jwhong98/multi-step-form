@@ -17,6 +17,7 @@ const AddOnsCard = (props) => {
         type="checkbox"
         name=""
         checked={selected}
+        readOnly={true}
         id=""
         onClick={onClickHandler}
       />

@@ -3,6 +3,7 @@ import AddOns from "./components/AddOns/AddOns";
 import FormNav from "./components/FormNav/FormNav";
 import PersonalInfo from "./components/PersonalInfo/PersonalInfo";
 import SelectPlan from "./components/SelectPlan/SelectPlan";
+import Summary from "./components/Summary/Summary";
 import ThankYou from "./components/ThankYou/ThankYou";
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
       <div className="container">
         {/* <PersonalInfo /> */}
         {/* <SelectPlan /> */}
+        {/* <AddOns /> */}
+        <Summary />
         {/* <ThankYou /> */}
-        <AddOns />
       </div>
     </div>
   );

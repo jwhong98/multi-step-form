@@ -1,1 +1,113 @@
-/* No CSS *//*# sourceMappingURL=Summary.module.css.map */
+.summary {
+  max-width: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+  color: #9699ab;
+}
+
+.summary__header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.summary__header p {
+  margin-top: 15px;
+  color: #9699ab;
+  font-size: 1.3rem;
+  font-family: "ubuntu-med", sans-serif;
+}
+
+.summary__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  background: #f0f6ff;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.summary__container__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.summary__container__row__plan h3 {
+  color: #02295a;
+}
+
+.summary__container__row__plan a {
+  color: inherit;
+}
+
+.summary__container__row__plan__price {
+  color: #02295a;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.summary__total {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+}
+
+.summary__total__price {
+  color: #473dff;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+hr {
+  height: 1px;
+  background: #d6d9e6;
+  border: none;
+}
+
+.addOns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price {
+  color: #02295a;
+}
+/*# sourceMappingURL=Summary.module.css.map */

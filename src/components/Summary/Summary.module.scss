@@ -1,0 +1,82 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.summary {
+  max-width: $width;
+  width: 100%;
+  @include flexCol;
+  margin-top: 50px;
+  gap: 20px;
+  color: hsl(231, 11%, 63%);
+
+  &__header {
+    width: 100%;
+    margin-bottom: 20px;
+    p {
+      margin-top: 15px;
+      color: hsl(231, 11%, 63%);
+      font-size: 1.3rem;
+      font-family: $fontMed;
+    }
+  }
+
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: hsl(217, 100%, 97%);
+    border-radius: 8px;
+    gap: 20px;
+
+    &__row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__plan {
+        h3 {
+          color: $headingColor;
+        }
+
+        a {
+          color: inherit;
+        }
+
+        &__price {
+          color: $headingColor;
+          font-weight: 700;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+
+  &__total {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    &__price {
+      color: hsl(243, 100%, 62%);
+      font-weight: 700;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+hr {
+  height: 1px;
+  background: hsl(229, 24%, 87%);
+  border: none;
+}
+
+.addOns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  color: $headingColor;
+}
