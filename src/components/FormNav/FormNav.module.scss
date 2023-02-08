@@ -6,4 +6,42 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 40px;
+  &__tab {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    color: hsl(229, 24%, 87%);
+    cursor: pointer;
+  }
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.active {
+  background: hsl(206, 94%, 87%);
+  border-color: hsl(243, 100%, 62%);
+  color: hsl(213, 96%, 18%);
 }
